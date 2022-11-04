@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
     name:{
-        type:Stirng,
+        type: String,
         required: true
     },
     email:{
-        type:Stirng,
+        type:String,
         required: true,
         unique: true
     },
@@ -23,7 +23,7 @@ const userSchema = new mongoose.Schema({
         required: false
     },
     avatar:{
-        type:Stirng,
+        type:String,
         default:'https://res.cloudinary.com/dm0q0d4tr/image/upload/v1666601168/sample.jpg'
     }
 }, {

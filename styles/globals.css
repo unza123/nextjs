@@ -30,3 +30,6 @@ a {
     background: black;
   }
 }
+
+ /* --------------Loading css----------------- */
+ @import url("./loading.css")

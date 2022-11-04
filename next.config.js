@@ -8,6 +8,8 @@
 module.exports = {
    env:{
     "BASE_URL": "http://localhost:3000",
-    "MONGODB_URL": "mongodb+srv://unza123:mollify123@cluster0.hwc3sqk.mongodb.net/next_ecommerce?retryWrites=true&w=majority"
+    "MONGODB_URL": "mongodb+srv://unza123:mollify123@cluster0.hwc3sqk.mongodb.net/next_ecommerce?retryWrites=true&w=majority",
+    "ACCESS_TOKEN_SECRET":"Q+3GxXgT`yM*FrDq",
+    "REFRESH_TOKEN": "K?(V]PQ`n^adDyF@",
    }
 }
